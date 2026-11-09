@@ -51,6 +51,16 @@ npm run build
 npm run preview
 ```
 
+### Deploy with Vercel
+
+Import the repository into Vercel and keep the default settings:
+
+- **Framework preset:** Vite
+- **Build command:** `npm run build`
+- **Output directory:** `dist`
+
+The build command invokes the TypeScript and Vite CLIs through Node directly, which keeps deployments reliable on Linux build machines.
+
 ## ✦ Use it on an iPhone
 
 To open the app on your phone during development:
